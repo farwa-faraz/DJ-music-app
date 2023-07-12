@@ -1,0 +1,65 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+}
+
+.speed
+{
+    float:left;
+}
+
+.volume
+{
+    float: right;
+}
+
+.image1
+{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.image2
+{
+    width: 200px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.heading 
+{
+    font-size: larger;
+    width: 100%;
+}
+
+.label1, .label2
+{
+    width: 100px;
+    font-size: 20px;
+}
+
+.button
+{
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+canvas
+{
+    border: 3px dotted white;
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 20px;
+}
+
+@keyframes animation1
+{
+    from{box-shadow: 5px 5px 50px white;}
+    to{box-shadow: 5px 5px 50px rgb(206, 109, 255);}
+}
